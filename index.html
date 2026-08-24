@@ -2,178 +2,335 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Syed Affan Ali is a mobile application developer building dependable Flutter apps, connected IoT systems, and practical AI solutions.">
-  <meta name="theme-color" content="#101412">
-  <meta property="og:title" content="Syed Affan Ali | Mobile & Connected Systems Developer">
-  <meta property="og:description" content="Flutter applications, connected systems, embedded robotics, and applied AI.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Syed Affan Ali">
+  <meta name="description" content="Syed Affan Ali — Mobile & Embedded Systems Engineer building dependable Flutter apps, connected IoT systems, robotics, and applied AI.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0E1512">
+  <link rel="canonical" href="https://syedaffan-saffu.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Syed Affan Ali | Mobile & Embedded Systems Engineer">
+  <meta property="og:description" content="Flutter applications, connected IoT systems, embedded robotics, and applied AI.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/syed-affan-ali-profile.jpg">
-  <title>Syed Affan Ali | Mobile & Connected Systems Developer</title>
+  <meta property="og:url" content="https://syedaffan-saffu.github.io/">
+  <meta property="og:image" content="https://syedaffan-saffu.github.io/assets/images/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:site_name" content="Syed Affan Ali">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Syed Affan Ali | Mobile & Embedded Systems Engineer">
+  <meta name="twitter:description" content="Flutter applications, connected IoT systems, embedded robotics, and applied AI.">
+  <meta name="twitter:image" content="https://syedaffan-saffu.github.io/assets/images/og-card.jpg">
+
+  <title>Syed Affan Ali | Mobile & Embedded Systems Engineer</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
   <header class="site-header" id="site-header">
-    <a class="brand" href="#home" aria-label="Affan home">Affan<span>.</span></a>
+    <a class="brand" href="#home" aria-label="Home">Affan<span>.</span></a>
+
     <nav class="desktop-nav" aria-label="Primary navigation">
-      <a class="nav-link active" href="#home">Home</a>
-      <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#experience">Experience</a>
-      <a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#skills">Skills</a>
-      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#home" data-i18n="nav.home">Home</a>
+      <a class="nav-link" href="#about" data-i18n="nav.about">About</a>
+      <a class="nav-link" href="#experience" data-i18n="nav.experience">Experience</a>
+      <a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a>
+      <a class="nav-link" href="#skills" data-i18n="nav.skills">Skills</a>
+      <a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
+
     <div class="header-actions">
-      <a class="button button-small button-dark resume-link" href="assets/docs/Syed_Affan_Ali_CV.docx" download>
-        <i data-lucide="download" aria-hidden="true"></i><span>Resume</span>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+        <span class="lang-sep">/</span>
+        <button type="button" class="lang-btn" data-lang="ko" aria-pressed="false">한국어</button>
+      </div>
+      <a class="button button-small resume-link" href="assets/docs/Syed_Affan_Ali.pdf" download>
+        <i data-lucide="download" aria-hidden="true"></i><span data-i18n="nav.resume">Resume</span>
       </a>
       <button class="icon-button menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <i data-lucide="menu" aria-hidden="true"></i>
       </button>
     </div>
+
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
-      <a class="nav-link" href="#home">Home</a><a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#experience">Experience</a><a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#home" data-i18n="nav.home">Home</a>
+      <a class="nav-link" href="#about" data-i18n="nav.about">About</a>
+      <a class="nav-link" href="#experience" data-i18n="nav.experience">Experience</a>
+      <a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a>
+      <a class="nav-link" href="#skills" data-i18n="nav.skills">Skills</a>
+      <a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
   </header>
 
   <main id="main">
+    <!-- HERO -->
     <section class="hero" id="home" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/images/engineering-workspace.png" alt="Engineering desk with a mobile dashboard, sensor board, and robotic arm">
-      <div class="hero-scrim"></div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="eyebrow light">Mobile applications · IoT · Applied AI</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Mobile · Embedded · IoT · Applied AI</p>
         <h1 id="hero-title">Syed Affan Ali</h1>
-        <p class="hero-lead">I build dependable mobile products that connect people, devices, and data.</p>
+        <p class="hero-role" data-i18n="hero.role">Mobile &amp; Embedded Systems Engineer</p>
+        <p class="hero-lead" data-i18n="hero.lead">I build dependable mobile products that connect people, devices, and data — from offline-first apps to sensor-driven hardware.</p>
         <div class="hero-actions">
-          <a class="button button-accent" href="#projects">Explore my work <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
-          <a class="text-link light-link" href="mailto:affan.syed001@gmail.com">Start a conversation <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          <a class="button button-accent" href="#projects"><span data-i18n="hero.cta1">Explore my work</span> <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+          <a class="button button-ghost" href="#contact"><span data-i18n="hero.cta2">Get in touch</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer" aria-label="GitHub"><i data-lucide="github" aria-hidden="true"></i></a>
+          <a href="https://linkedin.com/in/syed-affan-dev" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin" aria-hidden="true"></i></a>
+          <a href="mailto:affan.syed001@gmail.com" aria-label="Email"><i data-lucide="mail" aria-hidden="true"></i></a>
         </div>
       </div>
-      <div class="hero-facts" aria-label="Career highlights">
-        <div><strong>1.5+</strong><span>Years building mobile apps</span></div>
-        <div><strong>6</strong><span>Selected software & hardware projects</span></div>
-        <div><strong>Karachi</strong><span>Pakistan · Mobile & connected systems</span></div>
+
+      <div class="hero-facts" aria-label="Highlights">
+        <div><strong data-count="1.5">1.5+</strong><span data-i18n="hero.fact1">Years building mobile apps</span></div>
+        <div><strong data-count="4">4</strong><span data-i18n="hero.fact2">Companies shipped work for</span></div>
+        <div><strong data-count="6">6</strong><span data-i18n="hero.fact3">Selected software &amp; hardware projects</span></div>
+        <div><strong>Karachi</strong><span data-i18n="hero.fact4">Pakistan · open to opportunities</span></div>
       </div>
     </section>
 
-    <section class="intro section" id="about">
+    <!-- ABOUT -->
+    <section class="section" id="about">
       <div class="section-heading">
-        <p class="eyebrow">Profile</p>
-        <h2>Software built for the real world.</h2>
+        <p class="eyebrow" data-i18n="about.eyebrow">Profile</p>
+        <h2 data-i18n="about.title">Software built for the real world.</h2>
       </div>
-      <figure class="profile-figure">
-        <img src="assets/images/syed-affan-ali-profile.jpg" alt="Syed Affan Ali in formal attire" loading="lazy">
-        <figcaption>Syed Affan Ali · Karachi, Pakistan</figcaption>
-      </figure>
-      <div class="intro-copy">
-        <p class="large-copy">Computer Systems Engineering graduate and Flutter developer with hands-on experience shipping responsive, offline-first mobile applications.</p>
-        <p>My work sits where mobile software meets connected hardware: field data capture, sensor-driven systems, robotics, and practical AI. I care about clean architecture, resilient synchronization, and interfaces that stay useful outside ideal lab conditions.</p>
-        <a class="text-link" href="#contact">Work with me <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+      <div class="about-layout">
+        <figure class="profile-figure">
+          <img src="assets/images/affan-profile.png" alt="Syed Affan Ali" loading="lazy" width="440" height="520">
+          <figcaption>
+            <span class="dot" aria-hidden="true"></span>
+            <span data-i18n="about.available">Open to opportunities · Karachi, Pakistan</span>
+          </figcaption>
+        </figure>
+        <div class="about-copy">
+          <p class="large-copy" data-i18n="about.p1">Computer Systems Engineering graduate and Flutter developer with 1.5+ years of experience shipping responsive, offline-first mobile applications.</p>
+          <p data-i18n="about.p2">My work sits where mobile software meets connected hardware: field data capture, sensor-driven systems, robotics, and practical AI. I care about clean architecture, resilient synchronization, and interfaces that stay useful outside ideal lab conditions.</p>
+          <p data-i18n="about.p3">Alongside production mobile work, I build embedded and IoT projects with Arduino and ESP32 — integrating sensors, wireless telemetry, and Python data pipelines — and I'm actively growing toward AI, robotics, and edge-computing systems.</p>
+          <div class="about-tags">
+            <span data-i18n="about.tag1">Mobile Developer</span>
+            <span data-i18n="about.tag2">Embedded &amp; IoT</span>
+            <span data-i18n="about.tag3">Robotics</span>
+            <span data-i18n="about.tag4">Applied AI</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="experience section section-dark" id="experience">
+    <!-- EXPERIENCE -->
+    <section class="section section-dark" id="experience">
       <div class="section-heading">
-        <p class="eyebrow light">Experience</p>
-        <h2>Production work, from interface to field operation.</h2>
+        <p class="eyebrow" data-i18n="exp.eyebrow">Experience</p>
+        <h2 data-i18n="exp.title">Production work, from interface to field operation.</h2>
       </div>
       <div class="timeline">
         <article class="timeline-item open">
           <button class="timeline-trigger" type="button" aria-expanded="true">
-            <span class="timeline-date">Nov 2024 — Present</span><span class="timeline-role">Mobile Application Developer</span><span class="timeline-company">Gentec Pvt. Ltd.</span><i data-lucide="plus" aria-hidden="true"></i>
+            <span class="timeline-date">Nov 2024 — <span data-i18n="exp.present">Present</span></span>
+            <span class="timeline-role" data-i18n="exp.r1.role">Mobile Application Developer</span>
+            <span class="timeline-company">Gentec Pvt. Ltd.</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
           </button>
-          <div class="timeline-details"><p>Build production Flutter modules with reusable architecture and scalable state management while contributing through sprint planning, code review, daily standups, and CI/CD workflows.</p></div>
+          <div class="timeline-details">
+            <p data-i18n="exp.r1.body">Build production Flutter feature modules with clean architecture and scalable state management, contributing through sprint cycles, code reviews, daily standups, and CI/CD workflows.</p>
+          </div>
         </article>
+
         <article class="timeline-item">
           <button class="timeline-trigger" type="button" aria-expanded="false">
-            <span class="timeline-date">Feb — Oct 2024</span><span class="timeline-role">Mobile Developer · IoT & Connected Apps</span><span class="timeline-company">Wamtsol Pvt. Ltd.</span><i data-lucide="plus" aria-hidden="true"></i>
+            <span class="timeline-date">Feb — Oct 2024</span>
+            <span class="timeline-role" data-i18n="exp.r2.role">Mobile Developer · IoT &amp; Connected Apps</span>
+            <span class="timeline-company">Wamtsol Pvt. Ltd.</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
           </button>
-          <div class="timeline-details"><p>Delivered responsive Flutter interfaces, hardware-aware features, REST integrations, and offline synchronization using Provider, Bloc, IsarDB, SharedPreferences, and Dart isolates.</p></div>
+          <div class="timeline-details">
+            <p data-i18n="exp.r2.body">Delivered responsive cross-platform Flutter interfaces, hardware-aware features (GeoLocation, Camera, Media), REST integrations, and offline synchronization using Provider, Bloc, IsarDB, SharedPreferences, and Dart isolates.</p>
+          </div>
         </article>
+
         <article class="timeline-item">
           <button class="timeline-trigger" type="button" aria-expanded="false">
-            <span class="timeline-date">Aug 2023 — Jan 2024</span><span class="timeline-role">Flutter Front-End Developer</span><span class="timeline-company">BaijiSoft Technologies</span><i data-lucide="plus" aria-hidden="true"></i>
+            <span class="timeline-date">Aug 2023 — Jan 2024</span>
+            <span class="timeline-role" data-i18n="exp.r3.role">Flutter Front-End Developer</span>
+            <span class="timeline-company">BaijiSoft Technologies</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
           </button>
-          <div class="timeline-details"><p>Translated Figma designs into high-fidelity cross-platform interfaces and built REST, JSON, and multipart data flows for monitoring and control-oriented applications.</p></div>
+          <div class="timeline-details">
+            <p data-i18n="exp.r3.body">Translated Figma designs into high-fidelity cross-platform interfaces and built REST, JSON, and multipart data flows for monitoring and control-oriented applications.</p>
+          </div>
         </article>
+
         <article class="timeline-item">
           <button class="timeline-trigger" type="button" aria-expanded="false">
-            <span class="timeline-date">Jun — Jul 2023</span><span class="timeline-role">Mobile Application Developer Intern</span><span class="timeline-company">Zensoft Pvt. Ltd.</span><i data-lucide="plus" aria-hidden="true"></i>
+            <span class="timeline-date">Jun — Jul 2023</span>
+            <span class="timeline-role" data-i18n="exp.r4.role">Mobile Application Developer Intern</span>
+            <span class="timeline-company">Zensoft Pvt. Ltd.</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
           </button>
-          <div class="timeline-details"><p>Built and deployed a Sugar Cane Trolley Registration App with geolocation, image capture, Google Maps, nested navigation, and a resilient offline upload pipeline.</p></div>
+          <div class="timeline-details">
+            <p data-i18n="exp.r4.body">Built and deployed a Sugar Cane Trolley Registration app with native GeoLocation, image capture, Google Maps, nested navigation, and a resilient offline upload pipeline using Dart isolates.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="projects section" id="projects">
-      <div class="projects-top">
-        <div class="section-heading"><p class="eyebrow">Selected projects</p><h2>Connected systems with tangible outcomes.</h2></div>
-        <div class="filters" role="group" aria-label="Filter projects">
-          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button class="filter" type="button" data-filter="mobile" aria-pressed="false">Mobile</button>
-          <button class="filter" type="button" data-filter="iot" aria-pressed="false">IoT</button>
-          <button class="filter" type="button" data-filter="ai" aria-pressed="false">AI</button>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="proj.eyebrow">Selected projects</p>
+        <h2 data-i18n="proj.title">Connected systems with tangible outcomes.</h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true" data-i18n="proj.f.all">All</button>
+        <button class="filter" type="button" data-filter="mobile" aria-pressed="false" data-i18n="proj.f.mobile">Mobile</button>
+        <button class="filter" type="button" data-filter="iot" aria-pressed="false" data-i18n="proj.f.iot">IoT</button>
+        <button class="filter" type="button" data-filter="ai" aria-pressed="false" data-i18n="proj.f.ai">AI</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured" data-category="mobile">
+          <div class="project-top"><span class="project-num">01</span><span class="project-type" data-i18n="proj.p1.type">Production mobile app</span></div>
+          <h3 data-i18n="proj.p1.title">Sugar Cane Trolley Registration</h3>
+          <p data-i18n="proj.p1.body">A deployed field app for real-time trolley registration: geo-tagged photo capture, Google Maps, and reliable offline-first background sync via Dart isolates for low-connectivity conditions.</p>
+          <ul class="tags"><li>Flutter</li><li>IsarDB</li><li>Google Maps</li><li>Dart Isolates</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+
+        <article class="project-card" data-category="iot">
+          <div class="project-top"><span class="project-num">02</span><span class="project-type" data-i18n="proj.p2.type">IoT · Sensing · Data</span></div>
+          <h3 data-i18n="proj.p2.title">Water Quality Monitoring System</h3>
+          <p data-i18n="proj.p2.body">Real-time pH, turbidity, and temperature sensing on Arduino, with a Python pipeline for normalization, remote visualization, anomaly detection, and threshold-based alerts.</p>
+          <ul class="tags"><li>Arduino</li><li>Python</li><li>Sensors</li><li>IoT</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+
+        <article class="project-card" data-category="iot ai">
+          <div class="project-top"><span class="project-num">03</span><span class="project-type" data-i18n="proj.p3.type">Robotics · Control</span></div>
+          <h3 data-i18n="proj.p3.title">Gesture-Controlled Robotic Arm</h3>
+          <p data-i18n="proj.p3.body">Accelerometer-driven hand tracking with servo actuation and smooth C++ motion interpolation, with an OpenCV hand-landmark control extension as an alternative input.</p>
+          <ul class="tags"><li>Arduino</li><li>C++</li><li>Accelerometer</li><li>OpenCV</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-top"><span class="project-num">04</span><span class="project-type" data-i18n="proj.p4.type">Applied AI · RAG</span></div>
+          <h3 data-i18n="proj.p4.title">AI Document Q&amp;A Agent</h3>
+          <p data-i18n="proj.p4.body">A retrieval-augmented document assistant with FAISS vector search, conversational memory, source citations, and a Streamlit upload-and-query interface.</p>
+          <ul class="tags"><li>Python</li><li>LangChain</li><li>FAISS</li><li>Streamlit</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+
+        <article class="project-card" data-category="iot ai">
+          <div class="project-top"><span class="project-num">05</span><span class="project-type" data-i18n="proj.p5.type">Edge monitoring</span></div>
+          <h3 data-i18n="proj.p5.title">Energy Anomaly Detection</h3>
+          <p data-i18n="proj.p5.body">An ESP32 prototype that streams electrical measurements for remote monitoring and flags unusual consumption patterns with a lightweight anomaly-detection model.</p>
+          <ul class="tags"><li>ESP32</li><li>Python</li><li>Machine Learning</li><li>IoT</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+
+        <article class="project-card" data-category="iot ai">
+          <div class="project-top"><span class="project-num">06</span><span class="project-type" data-i18n="proj.p6.type">Prediction · Alerts</span></div>
+          <h3 data-i18n="proj.p6.title">Smart Greenhouse System</h3>
+          <p data-i18n="proj.p6.body">Temperature, humidity, and light sensing on ESP32 with remote readings, a simple ML model for near-term condition prediction, and actionable threshold alerts.</p>
+          <ul class="tags"><li>ESP32</li><li>Sensors</li><li>Machine Learning</li><li>IoT</li></ul>
+          <a class="project-link" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><span data-i18n="proj.viewcode">View code</span> <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+        </article>
+      </div>
+
+      <div class="projects-foot">
+        <a class="button button-ghost" href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer">
+          <i data-lucide="github" aria-hidden="true"></i> <span data-i18n="proj.viewall">View all on GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-soft" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="skills.eyebrow">Capabilities</p>
+        <h2 data-i18n="skills.title">A practical toolkit for connected products.</h2>
+      </div>
+      <div class="skill-groups">
+        <article>
+          <i data-lucide="smartphone" aria-hidden="true"></i>
+          <h3 data-i18n="skills.g1.title">Mobile &amp; Edge</h3>
+          <p>Flutter · Dart · Provider · Bloc · IsarDB · SharedPreferences · Dart Isolates · REST APIs · JSON · HTTP/Multipart</p>
+        </article>
+        <article>
+          <i data-lucide="cpu" aria-hidden="true"></i>
+          <h3 data-i18n="skills.g2.title">Embedded &amp; IoT</h3>
+          <p>Arduino · ESP32 · C / C++ · Microcontroller Interfacing · Sensor Integration · Wireless Telemetry · Robotics</p>
+        </article>
+        <article>
+          <i data-lucide="brain-circuit" aria-hidden="true"></i>
+          <h3 data-i18n="skills.g3.title">AI &amp; Vision</h3>
+          <p>Python · TensorFlow · PyTorch · Scikit-learn · OpenCV · LangChain · RAG · OpenAI API</p>
+        </article>
+        <article>
+          <i data-lucide="workflow" aria-hidden="true"></i>
+          <h3 data-i18n="skills.g4.title">Engineering</h3>
+          <p>Git · GitHub · Figma · VS Code · Agile/Scrum · Unit Testing · SOLID Principles · Clean Architecture</p>
+        </article>
+      </div>
+
+      <div class="education-strip">
+        <div>
+          <span data-i18n="skills.edu">Education</span>
+          <strong data-i18n="skills.edu.deg">B.E. Computer Systems Engineering</strong>
+          <p>Mehran University of Engineering &amp; Technology (MUET) · 2019—2023</p>
+        </div>
+        <div>
+          <span data-i18n="skills.train">Training</span>
+          <strong data-i18n="skills.train.t">Flutter · Arduino &amp; Robotics</strong>
+          <p data-i18n="skills.train.p">MUET and Creativo, Karachi</p>
+        </div>
+        <div>
+          <span data-i18n="skills.lang">Languages</span>
+          <strong data-i18n="skills.lang.t">Urdu · English</strong>
+          <p data-i18n="skills.lang.p">Native · IELTS Band 6.5</p>
         </div>
       </div>
-      <div class="project-grid">
-        <article class="project-card featured" data-category="iot ai">
-          <div class="project-number">01</div><div class="project-body"><p class="project-type">IoT · Sensing · Data</p><h3>Water Quality Monitoring System</h3><p>Real-time pH, turbidity, and temperature sensing with a Python pipeline, remote visualization, anomaly detection, and threshold alerts.</p><ul class="tags"><li>Arduino</li><li>Python</li><li>Sensors</li><li>IoT</li></ul></div>
-        </article>
-        <article class="project-card" data-category="mobile">
-          <div class="project-number">02</div><div class="project-body"><p class="project-type">Production mobile app</p><h3>Sugar Cane Trolley Registration</h3><p>Geo-tagged field registration with image capture and reliable background synchronization in low-connectivity environments.</p><ul class="tags"><li>Flutter</li><li>IsarDB</li><li>Maps</li><li>Isolates</li></ul></div>
-        </article>
-        <article class="project-card" data-category="iot ai">
-          <div class="project-number">03</div><div class="project-body"><p class="project-type">Robotics · Control</p><h3>Gesture-Controlled Robotic Arm</h3><p>Accelerometer-driven hand tracking, servo actuation, and smooth C++ motion interpolation, with an OpenCV control extension.</p><ul class="tags"><li>Arduino</li><li>C++</li><li>OpenCV</li></ul></div>
-        </article>
-        <article class="project-card" data-category="ai">
-          <div class="project-number">04</div><div class="project-body"><p class="project-type">Agentic AI · RAG</p><h3>AI Document Q&A Agent</h3><p>A document assistant with FAISS retrieval, conversational memory, source citations, and a Streamlit upload and query interface.</p><ul class="tags"><li>LangChain</li><li>FAISS</li><li>OpenAI API</li></ul></div>
-        </article>
-        <article class="project-card" data-category="iot ai">
-          <div class="project-number">05</div><div class="project-body"><p class="project-type">Edge monitoring</p><h3>Energy Anomaly Detection</h3><p>An ESP32 prototype that streams electrical measurements and flags unusual consumption patterns with a lightweight ML model.</p><ul class="tags"><li>ESP32</li><li>Python</li><li>ML</li></ul></div>
-        </article>
-        <article class="project-card" data-category="iot ai">
-          <div class="project-number">06</div><div class="project-body"><p class="project-type">Prediction · Alerts</p><h3>Smart Greenhouse System</h3><p>Environmental sensing, remote readings, near-term condition prediction, and actionable threshold alerts.</p><ul class="tags"><li>ESP32</li><li>Sensors</li><li>ML</li></ul></div>
-        </article>
-      </div>
     </section>
 
-    <section class="skills section section-soft" id="skills">
-      <div class="section-heading"><p class="eyebrow">Capabilities</p><h2>A practical full-stack toolkit for connected products.</h2></div>
-      <div class="skill-groups">
-        <article><i data-lucide="smartphone" aria-hidden="true"></i><h3>Mobile</h3><p>Flutter, Dart, Provider, Bloc, IsarDB, SharedPreferences, isolates, REST APIs, JSON</p></article>
-        <article><i data-lucide="cpu" aria-hidden="true"></i><h3>Embedded & IoT</h3><p>Arduino, ESP32, C/C++, sensor integration, microcontrollers, robotics, connected data</p></article>
-        <article><i data-lucide="brain-circuit" aria-hidden="true"></i><h3>AI & Vision</h3><p>Python, TensorFlow, PyTorch, scikit-learn, OpenCV, LangChain, RAG, Hugging Face</p></article>
-        <article><i data-lucide="workflow" aria-hidden="true"></i><h3>Engineering</h3><p>Git, GitHub, Figma, Agile/Scrum, unit testing, SOLID principles, clean architecture</p></article>
+    <!-- CONTACT -->
+    <section class="section section-accent" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h2 data-i18n="contact.title">Let's build something that works beyond the demo.</h2>
       </div>
-      <div class="education-strip">
-        <div><span>Education</span><strong>B.E. Computer Systems</strong><p>Mehran University of Engineering & Technology · 2019—2023</p></div>
-        <div><span>Training</span><strong>Flutter · Arduino & Robotics</strong><p>MUET and Creativo, Karachi</p></div>
-        <div><span>Languages</span><strong>Urdu · English</strong><p>Native · IELTS Band 6.5</p></div>
-      </div>
-    </section>
-
-    <section class="contact section section-accent" id="contact">
-      <div><p class="eyebrow">Contact</p><h2>Let’s build something that works beyond the demo.</h2></div>
       <div class="contact-panel">
-        <p>For mobile development, connected product work, and conversations around applied AI and robotics.</p>
+        <p class="contact-intro" data-i18n="contact.intro">Open to graduate research, mobile and connected-product roles, and collaboration in AI, robotics, and IoT.</p>
         <a class="contact-email" href="mailto:affan.syed001@gmail.com">affan.syed001@gmail.com <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
         <div class="contact-links">
-          <a href="https://linkedin.com/in/syed-affan-dev" target="_blank" rel="noreferrer">LinkedIn <i data-lucide="external-link" aria-hidden="true"></i></a>
-          <a href="tel:+923073086688">+92 307 3086688 <i data-lucide="phone" aria-hidden="true"></i></a>
-          <button class="copy-email" type="button" data-email="affan.syed001@gmail.com"><span>Copy email</span><i data-lucide="copy" aria-hidden="true"></i></button>
+          <a href="https://github.com/syedaffan-saffu" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://linkedin.com/in/syed-affan-dev" target="_blank" rel="noreferrer"><i data-lucide="linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="tel:+923073086688"><i data-lucide="phone" aria-hidden="true"></i> +92 307 3086688</a>
+          <button class="copy-email" type="button" data-email="affan.syed001@gmail.com">
+            <i data-lucide="copy" aria-hidden="true"></i> <span data-i18n="contact.copy">Copy email</span>
+          </button>
         </div>
       </div>
     </section>
   </main>
 
-  <footer><a class="brand" href="#home">Affan<span>.</span></a><p>© <span id="year"></span> Syed Affan Ali</p><a class="back-top" href="#home">Back to top <i data-lucide="arrow-up" aria-hidden="true"></i></a></footer>
+  <footer>
+    <a class="brand" href="#home">Affan<span>.</span></a>
+    <p>© <span id="year"></span> Syed Affan Ali. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    <a class="back-top" href="#home"><span data-i18n="footer.top">Back to top</span> <i data-lucide="arrow-up" aria-hidden="true"></i></a>
+  </footer>
 </body>
 </html>
