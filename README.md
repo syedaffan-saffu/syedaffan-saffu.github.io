@@ -1,21 +1,22 @@
 # Syed Affan Ali - Portfolio
 
 This repository contains my personal portfolio website.
-The portfolio presents my background as a Mobile and Embedded Systems Engineer.
+The portfolio presents my interests and project work in robotics, IoT, and applied AI.
 It includes my experience, technical skills, CV, and selected projects.
 
-My work focuses on building practical software and connected systems.
-I develop mobile applications with Flutter and Dart.
-I also work with embedded systems, IoT devices, robotics, and applied AI.
+My primary interests are robotics, connected sensing, and applied AI.
+I also have professional experience developing mobile applications with Flutter and Dart.
 
-The website includes information about my professional experience.
+The Experience section defaults to Robotics, IoT & AI project experience.
+A separate Mobile Apps tab contains my professional Flutter experience.
+The tabs support arrow keys, Home, and End for keyboard navigation.
 It also highlights the tools, technologies, and engineering areas I work with.
 The portfolio is available in English and Korean.
 Visitors can switch between languages using the language controls.
 
 ## Featured Projects
 
-- Sugar Cane Trolley Registration mobile application
+- 2D Ultrasonic Radar Mapping Prototype
 - Water Quality Monitoring System
 - Gesture-Controlled Smart Robotic Wheelchair
 - AI Document Question and Answer Agent

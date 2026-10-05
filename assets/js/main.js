@@ -4,29 +4,33 @@
 
 const I18N = {
   en: {
+    "exp.mobile.intro":"Professional experience developing mobile applications with Flutter and Dart.",
+    "exp.research.intro":"Academic and personal projects in robotics, IoT, and applied AI. Select a project for its description, tools, and repository.",
+    "exp.tab.mobile":"Mobile Apps",
+    "exp.tab.research":"Robotics, IoT & AI",
     "skip":"Skip to content",
     "nav.home":"Home","nav.about":"About","nav.experience":"Experience",
     "nav.projects":"Projects","nav.skills":"Skills","nav.contact":"Contact","nav.resume":"Resume",
 
-    "hero.eyebrow":"Mobile · Embedded · IoT · Applied AI",
-    "hero.role":"Mobile & Embedded Systems Engineer",
-    "hero.lead":"I build dependable mobile products that connect people, devices, and data — from offline-first apps to sensor-driven hardware.",
+    "hero.eyebrow":"Robotics · IoT · Applied AI",
+    "hero.role":"Computer Systems Engineering Graduate",
+    "hero.lead":"My primary interests are robotics, connected sensing, and applied AI. I build Arduino and ESP32 prototypes and explore how sensor data can support monitoring, mapping, and assistive systems.",
     "hero.cta1":"Explore my work","hero.cta2":"Get in touch",
-    "hero.fact1":"Years building mobile apps",
-    "hero.fact2":"Companies shipped work for",
-    "hero.fact3":"Selected software & hardware projects",
+    "hero.fact1":"Primary interest",
+    "hero.fact2":"Connected sensing",
+    "hero.fact3":"Selected engineering projects",
     "hero.fact4":"Pakistan · open to opportunities",
 
     "about.eyebrow":"Profile",
-    "about.title":"Software built for the real world.",
+    "about.title":"Robotics, sensing, and intelligent systems.",
     "about.available":"Open to opportunities · Karachi, Pakistan",
-    "about.p1":"Computer Systems Engineering graduate and Flutter developer with 1.5+ years of experience shipping responsive, offline-first mobile applications.",
-    "about.p2":"My work sits where mobile software meets connected hardware: field data capture, sensor-driven systems, robotics, and practical AI. I care about clean architecture, resilient synchronization, and interfaces that stay useful outside ideal lab conditions.",
-    "about.p3":"Alongside production mobile work, I build embedded and IoT projects with Arduino and ESP32 — integrating sensors, wireless telemetry, and Python data pipelines — and I'm actively growing toward AI, robotics, and edge-computing systems.",
-    "about.tag1":"Mobile Developer","about.tag2":"Embedded & IoT","about.tag3":"Robotics","about.tag4":"Applied AI",
+    "about.p1":"Computer Systems Engineering graduate focused on robotics, IoT, and applied AI, with hands-on projects in assistive mobility, ultrasonic mapping, and sensor monitoring.",
+    "about.p2":"My project work includes integrating sensors and motor control with Arduino and ESP boards, processing measurements in Python, and exploring machine learning for connected systems.",
+    "about.p3":"I also have professional experience developing Flutter applications. My main direction for graduate study is to deepen my understanding of robotics, embedded intelligence, and reliable sensing.",
+    "about.tag1":"Sensor Integration","about.tag2":"Embedded & IoT","about.tag3":"Robotics","about.tag4":"Applied AI",
 
     "exp.eyebrow":"Experience",
-    "exp.title":"Production work, from interface to field operation.",
+    "exp.title":"Project experience and professional work.",
     "exp.present":"Present",
     "exp.r1.role":"Mobile Application Developer",
     "exp.r1.body":"Build production Flutter feature modules with clean architecture and scalable state management, contributing through sprint cycles, code reviews, daily standups, and CI/CD workflows.",
@@ -38,7 +42,7 @@ const I18N = {
     "exp.r4.body":"Built and deployed a Sugar Cane Trolley Registration app with native GeoLocation, image capture, Google Maps, nested navigation, and a resilient offline upload pipeline using Dart isolates.",
 
     "proj.eyebrow":"Selected projects",
-    "proj.title":"Connected systems with tangible outcomes.",
+    "proj.title":"Robotics, IoT, and applied AI projects.",
     "proj.f.all":"All","proj.f.mobile":"Mobile","proj.f.iot":"IoT","proj.f.ai":"AI",
     "proj.viewcode":"View code","proj.viewall":"View all on GitHub",
     "proj.p1.type":"Robotics · Sensing · Mapping",
@@ -69,36 +73,40 @@ const I18N = {
     "skills.lang":"Languages","skills.lang.t":"Urdu · English","skills.lang.p":"Native · IELTS Band 6.5",
 
     "contact.eyebrow":"Contact",
-    "contact.title":"Let's build something that works beyond the demo.",
-    "contact.intro":"Open to graduate research, mobile and connected-product roles, and collaboration in AI, robotics, and IoT.",
+    "contact.title":"Research interests and opportunities.",
+    "contact.intro":"Interested in graduate study and collaboration in robotics, IoT, and applied AI.",
     "contact.copy":"Copy email","contact.copied":"Copied!",
 
     "footer.rights":"All rights reserved.","footer.top":"Back to top"
   },
   ko: {
+    "exp.mobile.intro":"Flutter와 Dart를 활용한 모바일 애플리케이션 개발 실무 경력입니다.",
+    "exp.research.intro":"로보틱스, IoT, 응용 AI 분야의 학업 및 개인 프로젝트입니다. 프로젝트를 선택하면 설명, 사용 도구, 저장소를 확인할 수 있습니다.",
+    "exp.tab.mobile":"모바일 앱",
+    "exp.tab.research":"로보틱스, IoT & AI",
     "skip":"본문으로 건너뛰기",
     "nav.home":"홈","nav.about":"소개","nav.experience":"경력",
     "nav.projects":"프로젝트","nav.skills":"기술","nav.contact":"연락처","nav.resume":"이력서",
 
-    "hero.eyebrow":"모바일 · 임베디드 · IoT · 응용 AI",
-    "hero.role":"모바일 & 임베디드 시스템 엔지니어",
-    "hero.lead":"오프라인 우선 앱부터 센서 기반 하드웨어까지, 사람과 기기와 데이터를 연결하는 신뢰성 높은 모바일 제품을 만듭니다.",
+    "hero.eyebrow":"로보틱스 · IoT · 응용 AI",
+    "hero.role":"컴퓨터 시스템 공학 학사",
+    "hero.lead":"주요 관심 분야는 로보틱스, 연결형 센싱, 응용 AI입니다. Arduino와 ESP32 프로토타입을 만들고 센서 데이터를 모니터링, 매핑, 보조 시스템에 활용하는 방법을 탐구합니다.",
     "hero.cta1":"작업물 보기","hero.cta2":"연락하기",
-    "hero.fact1":"모바일 앱 개발 경력",
-    "hero.fact2":"함께한 회사",
-    "hero.fact3":"주요 소프트웨어 & 하드웨어 프로젝트",
+    "hero.fact1":"주요 관심 분야",
+    "hero.fact2":"연결형 센싱",
+    "hero.fact3":"주요 공학 프로젝트",
     "hero.fact4":"파키스탄 · 기회에 열려 있음",
 
     "about.eyebrow":"프로필",
-    "about.title":"현실 세계를 위한 소프트웨어.",
+    "about.title":"로보틱스, 센싱, 지능형 시스템.",
     "about.available":"기회에 열려 있음 · 파키스탄 카라치",
-    "about.p1":"컴퓨터 시스템 공학 학사이자 Flutter 개발자로, 반응형·오프라인 우선 모바일 애플리케이션을 1.5년 이상 개발·배포해 왔습니다.",
-    "about.p2":"제 작업은 모바일 소프트웨어와 연결형 하드웨어가 만나는 지점에 있습니다. 현장 데이터 수집, 센서 기반 시스템, 로보틱스, 실용적인 AI가 그 대상입니다. 깔끔한 아키텍처, 견고한 동기화, 그리고 이상적인 환경 밖에서도 유용한 인터페이스를 중요하게 생각합니다.",
-    "about.p3":"프로덕션 모바일 개발과 함께 Arduino와 ESP32로 임베디드·IoT 프로젝트를 만들며 센서, 무선 텔레메트리, Python 데이터 파이프라인을 통합합니다. 또한 AI, 로보틱스, 엣지 컴퓨팅 시스템으로 역량을 넓혀가고 있습니다.",
-    "about.tag1":"모바일 개발자","about.tag2":"임베디드 & IoT","about.tag3":"로보틱스","about.tag4":"응용 AI",
+    "about.p1":"로보틱스, IoT, 응용 AI에 관심을 둔 컴퓨터 시스템 공학 졸업생으로, 보조 이동 장치, 초음파 매핑, 센서 모니터링 프로젝트를 수행했습니다.",
+    "about.p2":"Arduino와 ESP 보드에 센서와 모터 제어를 통합하고 Python으로 측정값을 처리하며, 연결형 시스템을 위한 머신러닝을 탐구합니다.",
+    "about.p3":"Flutter 애플리케이션을 개발한 실무 경험도 있습니다. 대학원에서는 로보틱스, 임베디드 지능, 신뢰성 있는 센싱에 대한 이해를 심화하고자 합니다.",
+    "about.tag1":"센서 통합","about.tag2":"임베디드 & IoT","about.tag3":"로보틱스","about.tag4":"응용 AI",
 
     "exp.eyebrow":"경력",
-    "exp.title":"인터페이스부터 현장 운영까지, 실전 개발 경험.",
+    "exp.title":"프로젝트 경험과 실무 경력.",
     "exp.present":"현재",
     "exp.r1.role":"모바일 애플리케이션 개발자",
     "exp.r1.body":"깔끔한 아키텍처와 확장 가능한 상태 관리를 적용해 프로덕션 Flutter 기능 모듈을 개발하며, 스프린트 주기·코드 리뷰·일일 스탠드업·CI/CD 워크플로에 기여합니다.",
@@ -110,7 +118,7 @@ const I18N = {
     "exp.r4.body":"네이티브 위치 기능, 이미지 캡처, Google Maps, 중첩 내비게이션, 그리고 Dart isolate 기반의 견고한 오프라인 업로드 파이프라인을 갖춘 사탕수수 트롤리 등록 앱을 개발·배포했습니다.",
 
     "proj.eyebrow":"주요 프로젝트",
-    "proj.title":"실질적 성과를 내는 연결형 시스템.",
+    "proj.title":"로보틱스, IoT, 응용 AI 프로젝트.",
     "proj.f.all":"전체","proj.f.mobile":"모바일","proj.f.iot":"IoT","proj.f.ai":"AI",
     "proj.viewcode":"코드 보기","proj.viewall":"GitHub에서 전체 보기",
     "proj.p1.type":"로보틱스 · 센싱 · 매핑",
@@ -141,8 +149,8 @@ const I18N = {
     "skills.lang":"언어","skills.lang.t":"우르두어 · 영어","skills.lang.p":"모국어 · IELTS 6.5",
 
     "contact.eyebrow":"연락처",
-    "contact.title":"데모를 넘어 실제로 작동하는 것을 함께 만들어요.",
-    "contact.intro":"대학원 연구, 모바일 및 연결형 제품 직무, 그리고 AI·로보틱스·IoT 협업에 열려 있습니다.",
+    "contact.title":"연구 관심 분야와 기회.",
+    "contact.intro":"로보틱스, IoT, 응용 AI 분야의 대학원 진학 및 협업에 관심이 있습니다.",
     "contact.copy":"이메일 복사","contact.copied":"복사됨!",
 
     "footer.rights":"All rights reserved.","footer.top":"맨 위로"
@@ -237,9 +245,47 @@ function initTimeline(){
   }));
 }
 
+function initExperienceTabs(){
+  const tabs = [...document.querySelectorAll('.experience-tabs [role="tab"]')];
+  const activate = (selected)=>{
+    tabs.forEach(tab=>{
+      const active = tab === selected;
+      tab.setAttribute("aria-selected", String(active));
+      tab.tabIndex = active ? 0 : -1;
+      document.getElementById(tab.getAttribute("aria-controls")).hidden = !active;
+    });
+    refreshTimeline();
+  };
+  tabs.forEach((tab, index)=>{
+    tab.addEventListener("click", ()=>activate(tab));
+    tab.addEventListener("keydown", event=>{
+      let next;
+      if(event.key === "ArrowRight") next = (index + 1) % tabs.length;
+      if(event.key === "ArrowLeft") next = (index + tabs.length - 1) % tabs.length;
+      if(event.key === "Home") next = 0;
+      if(event.key === "End") next = tabs.length - 1;
+      if(next === undefined) return;
+      event.preventDefault();
+      activate(tabs[next]);
+      tabs[next].focus();
+    });
+  });
+}
+
+function refreshTimeline(){
+  document.querySelectorAll(".timeline-item.open .timeline-details").forEach(details=>{
+    details.style.maxHeight = details.scrollHeight + "px";
+  });
+}
+
 function initFilters(){
   const filters = document.querySelectorAll(".filter");
   const cards = document.querySelectorAll(".project-card");
+  document.querySelectorAll('.experience-projects a').forEach(link=>{
+    link.addEventListener("click", ()=>{
+      document.querySelector('.filter[data-filter="all"]').click();
+    });
+  });
   filters.forEach(f=>f.addEventListener("click",()=>{
     filters.forEach(x=>{x.classList.remove("active");x.setAttribute("aria-pressed","false");});
     f.classList.add("active"); f.setAttribute("aria-pressed","true");
@@ -309,6 +355,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
   initHeader();
   initScrollSpy();
   initTimeline();
+  initExperienceTabs();
+  window.addEventListener("resize", refreshTimeline);
   initFilters();
   initReveal();
   initCopyEmail();
