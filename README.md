@@ -17,7 +17,7 @@ Visitors can switch between languages using the language controls.
 ## Featured Projects
 
 - 2D Ultrasonic Radar Mapping Prototype
-- Water Quality Monitoring System
+- IoT Water Quality Monitoring System
 - Gesture-Controlled Smart Robotic Wheelchair
 - AI Document Question and Answer Agent
 - Energy Anomaly Detection system
@@ -40,3 +40,9 @@ LangChain, Streamlit, REST APIs, IoT sensors, and machine learning.
 
 This is a static website built with HTML, CSS, and JavaScript.
 It is designed to be hosted directly through GitHub Pages.
+
+The water-quality project uses an ESP32 with seven sensors, a Blynk mobile
+dashboard, and a custom Water Quality Index. Its documentation includes
+timestamped Google Sheets records. The [project README](projects/iot-water-quality/README.md)
+and [A2 poster](projects/iot-water-quality/poster/iot-water-quality-poster.pdf)
+are available in this repository.
